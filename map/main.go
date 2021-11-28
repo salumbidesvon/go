@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	// myMap := make(map[string]string) -> Makes a map
+
 	colors := map[string]string{
 		"red":   "ff000",
 		"green": "7455",
