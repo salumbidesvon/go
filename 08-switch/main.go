@@ -8,6 +8,7 @@ func main() {
 	switch myVar {
 	case "cat":
 		log.Println("Cat is set to cat")
+		// fallthrough
 
 	case "dog":
 		log.Println("Cat is set to dog")

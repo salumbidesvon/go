@@ -1,11 +1,20 @@
 package main
 
-import "log"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
 	for i := 0; i <= 10; i++ {
 		log.Println("i is set to", i)
+
+		if i == 3 {
+			goto lco
+		}
 	}
+lco:
+	fmt.Println("Print me")
 
 	animals := []string{"dog", "cat", "fish", "bird"}
 
