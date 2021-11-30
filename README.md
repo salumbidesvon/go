@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://tenor.com/view/dancing-gopher-dancing-gopher-golang-gif-21954547.gif" alt="Project logo"></a>
+ <img width=200px height=200px src="https://github.com/von-salumbides/go/blob/main/go.gif" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Learning Go</h3>
