@@ -23,6 +23,9 @@ func main() {
 		},
 	}
 
+	fmt.Printf("Lisa's details are %+v \n", lisa)
+	fmt.Printf("First name is %v, and contact info is %v\n", lisa.firstname, lisa.contactInfo)
+
 	lisa.updateName("Lala")
 	lisa.print()
 
@@ -39,5 +42,5 @@ func (pointerToPerson *person) updateName(newFirstName string) {
 }
 
 func (p person) print() {
-	fmt.Printf("%+v", p)
+	fmt.Printf("%+v\n", p)
 }
