@@ -7,13 +7,15 @@ help:
 	    @echo "Makefile commands:"
 		@echo "make"
 	    @echo "make destroy"
+	    @echo "make dev"
 
 .DEFAULT_GOAL := run
 
 run:
+	    @docker-compose build
 	    @docker-compose up -d
 destroy:
 		@docker-compose down
 dev:
-		@docker-compose up -d
-		@docker exec -it web /bin/sh
+		@docker build --target dev . -t web
+		@docker run -v ${PWD}:/work -p 8080:8080 -it web sh
