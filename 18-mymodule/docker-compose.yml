@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  go:
+    container_name: web
+    build:
+      context: .
+      # target: dev
+    ports:
+      - 8080:8080
+    # volumes:
+    #   - './:/work'
+    # stdin_open: true # docker run -i
+    # tty: true        # docker run -t
