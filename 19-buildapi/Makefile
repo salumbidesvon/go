@@ -13,7 +13,7 @@ help:
 
 run:
 	    @docker-compose build
-	    @docker-compose up -d
+	    @docker-compose up
 destroy:
 		@docker-compose down
 dev:
