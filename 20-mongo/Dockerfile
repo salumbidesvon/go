@@ -12,6 +12,7 @@ FROM alpine as prod
 COPY --from=build /backend /backend
 RUN addgroup -S go && adduser -S go -G go
 RUN chown -R go:go /backend
+
 USER go
 
 ENTRYPOINT ["/backend"]
