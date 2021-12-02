@@ -99,7 +99,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a> -->
 
-- [@vonsalumbides](https://github.com/von-salumbides) - Idea & Initial work
+- [@vonsalumbides](https://github.com/von-salumbides) - Initial work
 
 <!-- See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project. -->
 
