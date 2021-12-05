@@ -12,8 +12,7 @@ help:
 .DEFAULT_GOAL := run
 
 run:
-	    @docker-compose build
-	    @docker-compose up -d
+	    @docker-compose up -d --build
 destroy:
 		@docker-compose down
 dev:
